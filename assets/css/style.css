@@ -316,6 +316,12 @@ can have two columns*/
 		float: left;
 	}
 
+	/* ------- Connect With Me Section ------- */
+	.connect-with-me {
+		float: none;
+		width: 100%;
+	}
+
 }
 
 @media only screen and (max-width: 640px) {
@@ -330,8 +336,6 @@ can have two columns*/
 	}
 
 	.nav-links {
-		/*width: 90%;*/
-		/*margin: 0 auto;*/
 		text-align: center;
 		padding: 20px;
 	}
