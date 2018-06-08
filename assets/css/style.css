@@ -176,10 +176,10 @@ h2.heading-font {
 
 /* About Me Section */
 #about-me-content img {
-	height: 200px;
-	width: 300px;
 	float: left;
 	margin-right: 20px;
+	width: 50%;
+	height: auto;
 }
 
 #about-me-content p {
@@ -261,3 +261,71 @@ can have two columns*/
 	left: 0;
 	bottom: 10px;
 }
+
+/* ------- MOBILE RESPONSIVENESS ------- */
+
+@media only screen and (max-width: 980px) {
+
+/* ------- General Styling ------- */
+
+/* Content containers */
+	.content {
+		width: 65%;
+	}
+
+	.connect-with-me {
+		width: 35%;
+	}
+
+/* ------- About Me Section ------- */
+	#about-me-content img {
+		width: 100%;
+		height: auto;
+		float: none;
+	}
+	
+	#about-me-content p {
+		margin: 20px 0;
+		line-height: 2;
+	}
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+	.wrapper {
+		width: 90%;
+	}
+
+/* ------- About Me Section ------- */
+	.content {
+		float: none;
+		width: 100%;
+		padding: 0;
+	}
+
+	#about-me-content img {
+		width: 50%;
+		float: left;
+	}
+
+}
+
+@media only screen and (max-width: 640px) {
+
+/* ------- About Me Section ------- */
+	#about-me-content img {
+		width: 100%;
+		height: auto;
+		float: none;
+	}
+	
+}
+
+
+
+
+
+
+
