@@ -289,6 +289,15 @@ can have two columns*/
 		line-height: 2;
 	}
 
+	/* ------- Portfolio Section ------- */
+	#images-container .images {
+		width: 100%;
+	}
+
+	#img-1, #img-2, #img-3,
+	#img-4, #img-5 {
+		float: none;
+	}
 
 }
 
@@ -322,6 +331,16 @@ can have two columns*/
 		width: 100%;
 	}
 
+	/* ------- Portfolio Section ------- */
+	#images-container .images {
+		width: 50%;
+	}
+
+	#img-1, #img-2, #img-3,
+	#img-4, #img-5 {
+		float: left;
+	}
+
 }
 
 @media only screen and (max-width: 640px) {
@@ -351,6 +370,16 @@ can have two columns*/
 	#about-me-content img {
 		width: 100%;
 		height: auto;
+		float: none;
+	}
+
+	/* ------- Portfolio Section ------- */
+	#images-container .images {
+		width: 100%;
+	}
+
+	#img-1, #img-2, #img-3,
+	#img-4, #img-5 {
 		float: none;
 	}
 	
